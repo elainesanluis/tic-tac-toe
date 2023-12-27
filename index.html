@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="gameContainer">
+    <h1>Tic Tac Toe</h1>
+    <div id="cellContainer">
+      <div cellIndex="0" class="cell"></div>
+      <div cellIndex="1" class="cell"></div>
+      <div cellIndex="2" class="cell"></div>
+      <div cellIndex="3" class="cell"></div>
+      <div cellIndex="4" class="cell"></div>
+      <div cellIndex="5" class="cell"></div>
+      <div cellIndex="6" class="cell"></div>
+      <div cellIndex="7" class="cell"></div>
+      <div cellIndex="8" class="cell"></div>
+    </div>
+    <h2 id="statusText"></h2>
+    <div id="button-container">
+      <button id="viewmatch" class="match-button" hidden>View Match</button>
+      <button id="Previous" class="match-button" hidden>Previous</button>
+      <button id="Next" class="match-button" hidden>Next</button>
+      <button id="restartBtn" class="match-button" hidden>Restart</button>
+      <button id="newGame" class="match-button" hidden>New Game</button>
+    </div>
+    <div id="score-container">
+      <div id="score">Score
+        <div id="player1">Player1</div>
+        <div id="player2">Player2</div>
+      </div>
+      <br />
+      <div id="scorecount" hidden>Score
+        <div id="player1score"></div>
+        <div id="player2score"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
